@@ -15,8 +15,8 @@ function restart() {
   console.log('called restart');
 }
 
-export function smell1Solution(): void {
+export function callTimoutSolution(): void {
   setTimeout(restart, MILLISECONDS_PER_HOUR);
 }
 
-smell1Solution();
+callTimoutSolution();

@@ -1,8 +1,8 @@
 function restart(): void {
   console.log('called restart');
 }
-export function smell1(): void {
+export function callTimout(): void {
   setTimeout(restart, 36000000);
 }
 
-smell1();
+callTimout();
