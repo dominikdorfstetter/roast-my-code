@@ -11,7 +11,7 @@ import { User } from '../types';
 
 export function updateUserSolution(user: User) {
   console.log(
-    `User created: ${user.name} ${user.lastName} (${user.age}) ${user.status}`
+    `User created: ${user.name} ${user.lastName} (${user.age}) ${user.status}`,
   );
 }
 
@@ -19,5 +19,5 @@ updateUserSolution({
   name: 'Gapur',
   lastName: 'Kassym',
   age: 29,
-  status: 'online'
+  status: 'online',
 });

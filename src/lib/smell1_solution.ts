@@ -11,9 +11,12 @@
 // Declare them as capitalized named constants.
 const MILLISECONDS_PER_HOUR = 60 * 60 * 1000; // 36000000
 
-const restart = () => {
+function restart() {
   console.log('called restart');
-};
-export const smell1Solution = () => {
+}
+
+export function smell1Solution(): void {
   setTimeout(restart, MILLISECONDS_PER_HOUR);
-};
+}
+
+smell1Solution();

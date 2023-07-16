@@ -8,6 +8,12 @@
  */
 import { User } from '../types';
 
-export const printSolution = (user: User): void => {
+export function printUserSolution(user: User): void {
   console.log(`${user.name} ${user.lastName} (${user.age})`);
-};
+}
+
+printUserSolution({
+  name: 'John',
+  lastName: 'Doe',
+  age: 30,
+});

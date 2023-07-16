@@ -4,3 +4,5 @@ function restart(): void {
 export function smell1(): void {
   setTimeout(restart, 36000000);
 }
+
+smell1();

@@ -4,6 +4,12 @@ type User = {
   userAge: number;
 };
 
-export const print = (user: User): void => {
+export function printUser(user: User): void {
   console.log(`${user.userName} ${user.userLastName} (${user.userAge})`);
-};
+}
+
+printUser({
+  userName: 'John',
+  userLastName: 'Doe',
+  userAge: 30,
+});
